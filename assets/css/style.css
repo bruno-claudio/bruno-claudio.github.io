@@ -576,8 +576,8 @@ p {
   object-fit: cover;
 }
 
-#about .about-descr .p-heading {
-  font-family: "Playfair Display", serif;
+#about .about-descr .p-heading {      /* CSS modify exercise */
+  font-family: "Gill Sans", serif;    /* replaced 'Playfair Display" with "Gill Sans" */
   font-size: 28px;
   text-align: left;
 }
