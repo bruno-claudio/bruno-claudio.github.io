@@ -860,6 +860,7 @@ p {
 }
 
 .contact-details {
+  color: #2101af;       /* CSS exercise changed color of text */
   list-style: none;
   margin: 0;
   padding: 0;
