@@ -61,12 +61,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #7e80b8;        /* changed color */
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #7e80b8;        /* changed color */
   color: #fff;
 }
 
@@ -136,7 +136,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #7e80b8;        /* changed color */
 }
 
 .mb-30 {
@@ -157,7 +157,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: #7e80b8;        /* changed color */
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -269,7 +269,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
 }
 
 .navbar .dropdown ul {
@@ -303,7 +303,7 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
 }
 
 .navbar .dropdown:hover>ul {
@@ -402,7 +402,7 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
 }
 
 .navbar-mobile .getstarted,
@@ -437,7 +437,7 @@ p {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -563,7 +563,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #7e80b8;        /* changed color */
 }
 
 #about .div-img-bg .about-img img {
@@ -616,7 +616,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
   line-height: 44px;
 }
 
@@ -630,11 +630,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #7e80b8;        /* changed color */
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #7e80b8;        /* changed color */
 }
 
 /*--------------------------------------------------------------
@@ -669,7 +669,7 @@ p {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -712,7 +712,7 @@ p {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -750,11 +750,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #7e80b8;        /* changed color */
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #7e80b8;        /* changed color */
 }
 
 .portfolio-details .portfolio-info {
@@ -841,7 +841,7 @@ p {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -992,7 +992,7 @@ p {
 }
 
 .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1076,7 +1076,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #b8a07e;
+  border-left: 4px solid #7e80b8;        /* changed color */
 }
 
 /*--------------------------------------------------------------
@@ -1115,7 +1115,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #7e80b8;        /* changed color */
   transition: all 0.5s ease-in-out 0s;
 }
 
