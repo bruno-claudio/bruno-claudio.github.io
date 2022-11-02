@@ -449,7 +449,7 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("../img/bcvl_mt_estes.png") repeat scroll center center/cover;      /* replaced home image */
   height: 100vh;
   width: 100%;
 }
@@ -670,7 +670,7 @@ p {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #7e80b8;        /* changed color */
+  color: #040cf5;        /* changed color */
 }
 
 #portfolio #portfolio-flters li:last-child {
