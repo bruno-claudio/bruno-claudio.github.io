@@ -62,12 +62,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #7e80b8;        /* changed color */
+  background: #1b38f9;        /* changed color */
   color: #fff;
 }
 
 ::selection {
-  background: #7e80b8;        /* changed color */
+  background: #1b38f9;        /* changed color */
   color: #fff;
 }
 
@@ -137,7 +137,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #7e80b8;        /* changed color */
+  background: #1b38f9;        /* changed color */
 }
 
 .mb-30 {
@@ -158,7 +158,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #7e80b8;        /* changed color */
+  background: #1b38f9;        /* changed color */
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -270,7 +270,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #7e80b8;        /* changed color */
+  color: #1b38f9;        /* changed color */
 }
 
 .navbar .dropdown ul {
@@ -304,7 +304,7 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #7e80b8;        /* changed color */
+  color: #1b38f9;        /* changed color */
 }
 
 .navbar .dropdown:hover>ul {
@@ -403,7 +403,7 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #7e80b8;        /* changed color */
+  color: #1b38f9;        /* changed color */
 }
 
 .navbar-mobile .getstarted,
@@ -438,7 +438,7 @@ p {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #7e80b8;        /* changed color */
+  color: #1b38f9;        /* changed color */
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -449,7 +449,7 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/bcvl_mt_estes.png") repeat scroll center center/cover;      /* replaced home image */
+  background: url("../img/bcvl_mt_estes.jpg") repeat scroll center center/cover;      /* replaced home image */
   height: 100vh;
   width: 100%;
 }
@@ -564,7 +564,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #7e80b8;        /* changed color */
+  border: 20px solid #1b38f9;        /* changed color */
 }
 
 #about .div-img-bg .about-img img {
@@ -617,7 +617,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #7e80b8;        /* changed color */
+  color: #1b38f9;        /* changed color */
   line-height: 44px;
 }
 
@@ -631,11 +631,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #7e80b8;        /* changed color */
+  border: 1px solid #1b38f9;        /* changed color */
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #7e80b8;        /* changed color */
+  background-color: #1b38f9;        /* changed color */
 }
 
 /*--------------------------------------------------------------
@@ -713,7 +713,7 @@ p {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #7e80b8;        /* changed color */
+  color: #1b38f9;        /* changed color */
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -751,11 +751,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #7e80b8;        /* changed color */
+  border: 1px solid #1b38f9;        /* changed color */
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #7e80b8;        /* changed color */
+  background-color: #1b38f9;        /* changed color */
 }
 
 .portfolio-details .portfolio-info {
@@ -842,7 +842,7 @@ p {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #7e80b8;        /* changed color */
+  color: #1b38f9;        /* changed color */
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -993,7 +993,7 @@ p {
 }
 
 .journal-txt h4 a:hover {
-  color: #7e80b8;        /* changed color */
+  color: #1b38f9;        /* changed color */
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1077,7 +1077,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #7e80b8;        /* changed color */
+  border-left: 4px solid #1b38f9;        /* changed color */
 }
 
 /*--------------------------------------------------------------
@@ -1116,7 +1116,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #7e80b8;        /* changed color */
+  color: #1b38f9;        /* changed color */
   transition: all 0.5s ease-in-out 0s;
 }
 
