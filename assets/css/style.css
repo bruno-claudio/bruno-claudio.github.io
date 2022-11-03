@@ -250,7 +250,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 15px 10px 15px;                     /* Changed right and left side padding for highlight */
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -266,7 +266,10 @@ p {
   margin-left: 5px;
 }
 
-.navbar a:hover,
+.navbar a:hover{
+  background-color: rgb(74, 209, 243);              /* Added menu highlight to allow menu text to be readable */
+}
+
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
