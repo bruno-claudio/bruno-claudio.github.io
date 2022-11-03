@@ -20,7 +20,6 @@ body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  /* background-image: "asstes/img/white-brick-wall.jpg";                /* new background for site */
 }
 
 h1,
@@ -470,7 +469,7 @@ p {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 10px;
-  text-transform: uppercase;
+  text-transform: capitalize;                               /* Changed text from uppeercase to capitalize */
   color: #fff;
 }
 
@@ -1081,6 +1080,26 @@ blockquote {
   margin: 30px 0;
   border: none;
   border-left: 4px solid #1b38f9;        /* changed color */
+}
+
+.animated-text {                                                                  /* Added a litte animated text for a quote */
+  background-image: -webkit-linear-gradient(#1b38f9 50%, #999 50%);
+  background-size: 100% 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: stripes 2s linear infinite;
+  animation: stripes 2s linear infinite;
+  /* font-size: 100px; */
+}
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+@keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
 }
 
 /*--------------------------------------------------------------
