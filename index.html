@@ -86,9 +86,9 @@
 
         <ul class="list-unstyled list-social">
           <!-- <li><a href="#"><i class="bi bi-facebook"></i></a></li> -->
-          <li><a href="https://twitter.com/tilingogringo"><i class="bi bi-twitter"></i></a></li>  <!-- Link to other websites exercise -->
+          <li><a href="https://twitter.com/tilingogringo"><i class="bi bi-twitter" tabindex="1"></i></a></li>  <!-- Link to other websites exercise -->
           <!-- <li><a href="#"><i class="bi bi-instagram"></i></a></li> -->
-          <li><a href="www.linkedin.com/in/brunocvaldes"><i class="bi bi-linkedin"></i></a></li>  <!-- Link to other websites exercise -->
+          <li><a href="www.linkedin.com/in/brunocvaldes"><i class="bi bi-linkedin" tabindex="2"></i></a></li>  <!-- Link to other websites exercise -->
         </ul>
       </div>
     </div>
@@ -114,14 +114,14 @@
 
           <div class="col-lg-7">
             <div class="about-descr">
-              <!-- Lab exercise 1 Changed About section -->
-              <p class="p-heading">I'm a Programmer/librarian based in Arkansas who loves clean, simple & unique design. I also enjoy reference work, watching movies, and working with Lego. </p>
-              <p class="animated-text"><q>In life, everything <em>worth doing</em> takes time.</q></p>      <!-- Emphasize and quote exercise -->
+              <!-- Lab exercise 1 Changed About section, added tab navigation -->
+              <p class="p-heading" tabindex="3">I'm a Programmer/librarian based in Arkansas who loves clean, simple & unique design. I also enjoy reference work, watching movies, and working with Lego. </p>
+              <p class="animated-text" tabindex="4"><q>In life, everything <em>worth doing</em> takes time.</q></p>      <!-- Emphasize and quote exercise -->
 
             </div>
             <aside>                                                           <!-- Accordion section is semantic aside element -->
               <div class="accordion" id="accordionExample">                   <!-- Added accordion element with shor accomplishments -->
-                <div class="accordion-item">
+                <div class="accordion-item" tabindex="5">                     <!-- Added tab navigation -->
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <!-- Changed accordion default to closed -->
                       Achievements as programmer
@@ -133,7 +133,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" tabindex="6">                     <!-- Added tab navigation -->
                   <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       Achievements as quality analyst
@@ -145,7 +145,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" tabindex="7">                     <!-- Added tab navigation -->
                   <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       Achievements as AFOL
@@ -234,8 +234,8 @@
     <section id="portfolio" class="paddsection">                        <!-- Turned portfolio section into semantic element -->
     <!-- <div id="portfolio" class="paddsection"> -->
 
-      <blockquote class="blockquote" cite="https://www.brainyquote.com/quotes/h_jackson_brown_jr_382774?src=t_inspirational">   <!-- Blockquote exercise -->
-        The best preparation for tomorrow is doing your best today. - H. Jackson Brown, Jr.
+      <blockquote class="blockquote" cite="https://www.brainyquote.com/quotes/h_jackson_brown_jr_382774?src=t_inspirational" tabindex="8">   <!-- Blockquote exercise added tab navigation -->
+        <a class="animated-text">The best preparation for tomorrow is doing your best today. - H. Jackson Brown, Jr.</a>
       </blockquote>
 
       <div class="container">
@@ -249,10 +249,10 @@
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Programmer</li>
-              <li data-filter=".filter-card">Librarian</li>
-              <li data-filter=".filter-web">Hobbies</li>
+              <li data-filter="*" class="filter-active" tabindex="9">All</li>
+              <li data-filter=".filter-app" tabindex="10">Programmer</li>
+              <li data-filter=".filter-card" tabindex="11">Librarian</li>
+              <li data-filter=".filter-web" tabindex="12">Hobbies</li>
             </ul>
           </div>
         </div>
@@ -260,7 +260,7 @@
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Cash registers at a Walmart store"> 
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Cash registers at a Walmart store" tabindex="13">  <!-- Added tab navigation -->
             <div class="portfolio-info">                      <!-- Added alt message to portfolio 1 picture -->
               <h4>Work experience</h4>                        <!-- Updated pop-up tip -->
               <p>25 years at Walmart</p>
@@ -271,7 +271,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="Unspooled movie film">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="Unspooled movie film" tabindex="14">   <!-- Added tab navigation -->
             <div class="portfolio-info">                      <!-- Added alt message to portfolio 2 picture -->
               <h4>Movie Fan</h4>                              <!-- Updated pop-up tip -->
               <p>...except horror films</p>
@@ -282,7 +282,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Credit card on top of keyboard">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Credit card on top of keyboard" tabindex="15">   <!-- Added tab navigation -->
             <div class="portfolio-info">                      <!-- Added alt message to portfolio 3 picture -->
               <h4>Quality Analisys Experience</h4>            <!-- Updated pop-up tip -->
               <p>Tester at Walmart, NCR, Toshiba</p>
@@ -293,7 +293,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="Hand picking book from bookcase">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="Hand picking book from bookcase" tabindex="16">    <!-- Added tab navigation -->
             <div class="portfolio-info">                      <!-- Added alt message to portfolio 4 picture -->
               <h4>MLIS graduate</h4>                          <!-- Updated pop-up tip -->
               <p>University of Denver</p>
@@ -304,7 +304,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="Bunch of colorful Lego pieces">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="Bunch of colorful Lego pieces" tabindex="17">    <!-- Added tab navigation -->
             <div class="portfolio-info">                      <!-- Added alt message to portfolio 5 picture -->
               <h4>Adult Fan Of Lego</h4>                      <!-- Updated pop-up tip -->
               <p>Good educational hobby</p>
@@ -315,7 +315,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="Screen with computer code">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="Screen with computer code" tabindex="18">    <!-- Added tab navigation -->
             <div class="portfolio-info">                      <!-- Added alt message to portfolio 6 picture -->
               <h4>Computer Systems Engineer</h4>              <!-- Updated pop-up tip -->
               <p>Programmer at Walmart</p>
